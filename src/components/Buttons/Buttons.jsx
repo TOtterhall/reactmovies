@@ -1,7 +1,7 @@
 export default function Button() {
   return (
     <>
-      <button>SEEN</button>
+      <button>Sen It</button>
     </>
   );
 }

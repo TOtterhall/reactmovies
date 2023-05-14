@@ -1,0 +1,23 @@
+header {
+  height: 4 rem;
+  background-color: rgb(31, 36, 58);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5 rem;
+}
+
+header h1 {
+  font-weight: 100;
+  margin-left: 2rem;
+}
+
+header h1 > span {
+  font-weight: 500;
+  color: rgb(240, 240, 140);
+}
+
+header > div {
+  display: flex;
+  align-items: center;
+}
