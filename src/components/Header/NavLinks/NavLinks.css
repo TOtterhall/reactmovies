@@ -6,3 +6,6 @@ ul {
   text-transform: uppercase;
   align-items: space-between;
 }
+.active {
+  border-bottom: 2px yellow;
+}

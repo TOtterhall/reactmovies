@@ -10,10 +10,10 @@ export default function Main() {
       <h1>Main</h1>
 
       <Routes>
-        <Route exact path="/MovieList" element={<MovieList />} />
-        <Route exact path="/MovieDetails" element={<MovieDetails />} />
-        <Route exact path="/About" element={<About />} />
-        <Route exact path="/Contact" element={<Contact />} />
+        <Route exact path="/" element={<MovieList />} />
+        <Route exact path="/:id" element={<MovieDetails />} />
+        <Route exact path="/about" element={<About />} />
+        <Route exact path="/contact" element={<Contact />} />
       </Routes>
     </>
   );
