@@ -1,9 +1,15 @@
-export default function FilterDropdown() {
+/* eslint-disable react/prop-types */
+function FilterDropDown({ filter, setFilter }) {
   return (
-    <select>
-      <options value="popular">Popular</options>
-      <options value="top-reted">Top-Rated</options>
-      <options value="upcomming">Upcomming</options>
+    <select
+      value={filter}
+      onChange={(e) => setFilter({ filter: e.target.value })}
+    >
+      <option value="popular">Popular</option>
+      <option value="top_rated">Top Rated</option>
+      <option value="upcoming">Upcoming</option>
     </select>
   );
 }
+
+export default FilterDropDown;
